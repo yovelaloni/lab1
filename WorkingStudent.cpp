@@ -11,7 +11,7 @@ WorkingStudent::WorkingStudent(const WorkingStudent& other) :Person(other) Stude
 }
 
 void WorkingStudent::print() const {
-	Person::Print();
+	Person::print();
 	cout << "salary: " << *this.salary << endl;
 	cout << "average: " << *this.average << endl;
 	cout << "institute: " << *this.institute << endl;
