@@ -6,7 +6,7 @@ WrokingStudent::WorkingStudent(string name, long id, int age, int average, strin
 	same_institute = same_inst;
 }
 
-WorkingStudent::WorkingStudent(const WorkingStudent& other) :Person(other) Student(other), Employee(other) {
+WorkingStudent::WorkingStudent(const WorkingStudent& other) :Person(other), Student(other), Employee(other) {
 	same_institute = other.same_institute;
 }
 
